@@ -4,15 +4,25 @@
     <meta charset="UTF-8">
     <title>Miles-Km</title>
     <link rel="stylesheet" type="text/css" href="converterCss.css">
+    <script type="application/javascript" src="convertersMethods.js"></script>
+    <script>
+
+
+    </script>
 </head>
 <body>
-    <div>
-    <h1>Convert miles and Km</h1>
-    <input type="text" class="toCon" placeholder="What to convert?">
-    <br><br>
-    <input type="button" value="Convert!" class="btn">
-    <br><br>
-    <input type="text" class="converted">
-    </div>
+    <form>
+        <h1>Convert miles and Km</h1>
+        <input type="number" class="toCon" placeholder="miles" id="miles">
+        <br><br>
+        <input type="button" value="Convert!" class="btn" id="mkbtn" onclick="milesAndKm()">
+        <br><br>
+        <input type="number" class="converted" placeholder="km" id="km">
+        <br><br>
+        <input type="reset" value="Reset" class="reset">
+    </form>
+    <br><Br><br><br>
+    <a href="mainScreen.html">home</a>
+
 </body>
 </html>

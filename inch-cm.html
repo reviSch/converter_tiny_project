@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <title>Inches-Cm</title>
     <link rel="stylesheet" type="text/css" href="converterCss.css">
+    <script type="application/javascript" src="convertersMethods.js"></script>
 </head>
 <body>
-<h1>Convert inches amd cm</h1>
-<input type="text">
-<input type="button" value="Convert!" class="btn">
-<input type="text">
+    <h1>Convert inches amd cm</h1>
+    <form>
+        <input type="number" placeholder="inces" class="toCon" id="inch">
+        <br><br>
+        <input type="button" value="Convert!" class="btn" onclick="inchAndCm()">
+        <br><br>
+        <input type="text" placeholder="cm" class="converted" id="cm">
+        <br><br>
+        <input type="reset" value="Reset" class="reset">
+    </form>
+    <br><Br><br><br>
+    <a href="mainScreen.html">home</a>
+
 </body>
 </html>
